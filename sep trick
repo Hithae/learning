@@ -1,0 +1,3 @@
+#In order to present lists neatly, use "sep" to choose how to separate list items when presented.
+
+print(*myList, sep='\n')
