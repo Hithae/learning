@@ -1,0 +1,23 @@
+omarPack = []
+omarPack.append("Apples")
+omarPack.append("Oranges")
+omarPack.append("Lemons")
+for k1 in omarPack:
+    print (k1)
+
+print ()
+
+omarPack.append("Watermelons")
+for k2 in omarPack:
+    print (k2)
+
+del omarPack[1]
+del omarPack[1]
+
+print ()
+print (*omarPack)
+print ()
+print (k1)
+print ()
+print (k2)
+print ()
